@@ -1,0 +1,11 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <label>Enter text
+        <textarea class="form-control" formControlName="text"></textarea>
+    </label>
+    <button type="submit" [disabled]="form.invalid">Submit</button>
+</form>
+
+<div *ngIf="response">
+    <h2>Server response: </h2>
+    <pre>{{ response | json }}</pre>
+</div>
