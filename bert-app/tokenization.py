@@ -4,7 +4,7 @@ import re
 
 class Text:
     """
-    Basic text preprocessing
+    Basic text preprocessing. Use this class to preprocess text
     """
 
     def __init__(self, text: str):
