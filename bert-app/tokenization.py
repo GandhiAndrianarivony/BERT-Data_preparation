@@ -30,6 +30,10 @@ class Text:
     def _to_lowercase(self, text: str) -> str:
         return text.lower()
 
+    
+class BasicTokenizer:
+    ...
+
 
 # class Token(Text):
 #     def __init__(self, text: str):
