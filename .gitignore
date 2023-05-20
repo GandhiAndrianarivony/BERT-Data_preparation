@@ -1,3 +1,5 @@
 .env
 data/
 .venv
+web-app/app-view/node_modules/
+web-app/app-view/.vscode/
