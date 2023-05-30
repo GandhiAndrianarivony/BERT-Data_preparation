@@ -1,9 +1,8 @@
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
-    <label>
-        <span class="label-text">Enter text : </span>
-        <textarea class="form-control" formControlName="text"></textarea>
-    </label>
-    <button type="submit" [disabled]="form.invalid">Submit</button>
+    <div class="form-group">
+        <textarea class="form-control" formControlName="text" placeholder="Enter text"></textarea>
+        <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Submit</button>
+    </div>
 </form>
 
 <div *ngIf="response">

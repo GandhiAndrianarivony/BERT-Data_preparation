@@ -1,3 +1,13 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
 /*Pour le footer*/
 .footer {
     position: fixed;
